@@ -28,5 +28,17 @@ Enter query: love
 
 Queries can be of arbitrary length (only limited by twitter). You can think of twitter.py as a wrapper interface to twitter search engine that returns the percentage of positive, negative and neutral tweets about the query.
 
+# Training the model 
+For training, you have to download the IMDB movie reviews dataset. This is a large dataset of 50,000 files (25K for each Train and Test) so it was difficult to upload the dataset here. You can grab the dataset from 
+![here](http://ai.stanford.edu/~amaas/data/sentiment/)
+
+Unpack the dataset and put in the "data/" directory. You are now ready to train the One-Dimensional Convolutional Neural Network model (optionally includes LSTM) defined in train.py script.
+```
+python train.py
+
+```
+Training may take a while. Play with the parameters like 'number of epochs' and 'batch_size'.
+
+
 # Future of project
 I'm thinking of developing a web api and a web interface for the twitter sentiment classification.
