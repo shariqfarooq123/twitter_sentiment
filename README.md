@@ -31,7 +31,7 @@ Queries can be of arbitrary length (only limited by twitter). You can think of t
 # Training the model 
 The repo contains the trained models in 'models/' directory. If you want to train your own model and/or modify the model, try following:
 For training, you have to download the IMDB movie reviews dataset. This is a large dataset of 50,000 files (25K for each Train and Test) so it was difficult to upload the dataset here. You can grab the dataset from 
-![here](http://ai.stanford.edu/~amaas/data/sentiment/)
+[here](http://ai.stanford.edu/~amaas/data/sentiment/)
 
 Unpack the dataset and put in the "data/" directory. You are now ready to train the One-Dimensional Convolutional Neural Network model (optionally includes LSTM) defined in train.py script.
 ```
