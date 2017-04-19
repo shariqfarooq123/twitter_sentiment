@@ -3,6 +3,8 @@ Twitter Sentiment classification using Deep Learning.
 A classic example of application of deep learning in Natural Language Processing.
 
 # Usage
+In order to use the twitter api, you have to register an app with twitter [here](https://dev.twitter.com/oauth/overview/application-owner-access-tokens) and obtain consumer key and consumer secret. Enter these in the placeholder defined in twitter.py 
+
 Run twitter.py file which provides a Command Line Interface for sentiment classification on any query on Twitter:
 
 ```
